@@ -1,3 +1,2 @@
-Docker file created
-docker image = docker build -t your_app.py .
-running = docker run -p expose_port:expose_port your_app.py
+docker image = docker build -t api.py .
+running = docker run -p 5005:5005 api.py
